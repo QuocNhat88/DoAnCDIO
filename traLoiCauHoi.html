@@ -4,26 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trả lời câu hỏi</title>
+    <link rel="stylesheet" href="css/traLoiCauHoi.css" />
   </head>
   <body>
-    <div class="top">
-      <a href="">Trang chủ</a>
-      <a href="">Tài liệu</a>
-      <a href="">Diễn đàn</a>
-      <a href="">Sự kiện</a>
-      <a href="">Tư vấn chuyên gia</a>
-    </div>
-    <div class="mid">
-      <img src="image/anhNenDoAn.jpg" alt="ảnh nền nồn nghiệp" />
-      <h2>Trả lời câu hỏi</h2>
-    </div>
-    <div class="bot">
-      <div class="lichSuCauHoi">
-        <h3>Lịch sử câu hỏi</h3>
-        <p>Chưa có lịch sử câu hỏi</p>
+    <div class="banner">
+      <div class="top">
+        <a href="">Trang chủ</a>
+        <a href="">Tài liệu</a>
+        <a href="">Diễn đàn</a>
+        <a href="">Sự kiện</a>
+        <a href="">Tư vấn chuyên gia</a>
+        <input
+          type="text"
+          id="TimKiem"
+          placeholder="Nhập từ khóa tìm kiếm..."
+        />
+        <button>Tìm kiếm</button>
+        <a href=""><img src="image/image.png" alt="" /></a>
+        <a href="">Đăng xuất</a>
+        <a href=""><img src="image/image.png" alt="" /></a>
       </div>
-      <div class="datCauHoi"></div>
-      <div class="timCauHoi"></div>
+      <div class="mid">
+        <img src="image/anhNenDoAn.jpg" alt="ảnh nền nông nghiệp" />
+        <h2>Trả lời câu hỏi</h2>
+      </div>
+      <div class="bot">
+        <div class="lichSuCauHoi">
+          <h3>Lịch sử câu hỏi</h3>
+          <p class="textlsch">Chưa có lịch sử câu hỏi</p>
+        </div>
+        <div class="datCauHoi">
+          <h3>Đặt câu hỏi</h3>
+          <input
+            class="textdch"
+            type="text"
+            id="datCauHoi"
+            placeholder="Đặt câu hỏi"
+          />
+          <button>Gửi</button>
+        </div>
+        <div class="timCauHoi">
+          <h3>Tìm câu hỏi</h3>
+          <input
+            class="texttch"
+            type="text"
+            id="timCauHoi"
+            placeholder="Tìm câu hỏi"
+          />
+          <button>Tìm</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
